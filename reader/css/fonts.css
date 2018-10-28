@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Custom Icons';
+  font-weight: normal;
+  font-style: normal;
+  src: url(font/Custom-Icons.woff) format('woff');
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/MaterialIcons-Regular.woff);
+  /* For IE6-8 */
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(font/MaterialIcons-Regular.woff) format('woff');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Custom Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file:before {
+  content: "\e898";
+}
+.icon-zip:before {
+  content: "\e899";
+}
+@font-face {
+                      font-family: 'Roboto';
+                      font-weight: 500;
+                      font-style: normal;                      
+                      src: local('Roboto Regular'),                           
+                           url('../fonts/roboto-500.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Roboto';
+                      font-weight: 400;
+                      font-style: normal;                      
+                      src: local('Roboto Regular'),                           
+                           url('../fonts/roboto-400.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Roboto';
+                      font-weight: 300;
+                      font-style: normal;                      
+                      src: local('Roboto Regular'),                           
+                           url('../fonts/roboto-300.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Roboto';
+                      font-weight: 100;
+                      font-style: normal;                      
+                      src: local('Roboto Regular'),                           
+                           url('../fonts/roboto-100.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Roboto';
+                      font-weight: 700;
+                      font-style: normal;                      
+                      src: local('Roboto Regular'),                           
+                           url('../fonts/roboto-700.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Roboto Condensed';
+                      font-weight: 400;
+                      font-style: normal;                      
+                      src: local('Roboto Condensed Regular'),                           
+                           url('../fonts/robotocondensed-400.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Roboto Slab';
+                      font-weight: 400;
+                      font-style: normal;                      
+                      src: local('Roboto Slab Regular'),                           
+                           url('../fonts/robotoslab-400.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Roboto Slab';
+                      font-weight: 700;
+                      font-style: normal;                      
+                      src: local('Roboto Slab Regular'),                           
+                           url('../fonts/robotoslab-700.ttf') format('truetype');
+                    }
+@font-face {
+                      font-family: 'Lato';
+                      font-weight: 300;
+                      font-style: normal;                      
+                      src: local('Lato Regular'),                           
+                           url('../fonts/lato-300.ttf') format('truetype');
+                    }
